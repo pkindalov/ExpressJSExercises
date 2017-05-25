@@ -1,0 +1,17 @@
+{
+  "name": "password-hasher-example",
+  "version": "0.0.1",
+  "description": "Password hasher example from live demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "password",
+    "hasher",
+    "simple"
+  ],
+  "author": "r3v3nan7",
+  "license": "MIT"
+}
