@@ -1,0 +1,17 @@
+{
+  "name": "events-example",
+  "version": "0.0.1",
+  "description": "Simple examples of events from live demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple",
+    "example",
+    "examples",
+    "events"
+  ],
+  "author": "r3v3nan7",
+  "license": "MIT"
+}
