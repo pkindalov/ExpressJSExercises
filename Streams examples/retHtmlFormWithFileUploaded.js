@@ -1,5 +1,7 @@
 const http = require('http');
 const query = require('querystring');
+const formidable = require('formidable');
+const fs = require('fs');
 const port = 1337;
 
 http
@@ -21,14 +23,30 @@ http
 
             res.end();
         } else if(req.method === "POST"){
-            let result = '  ';
-            req.on('data', data => {result += data;});
-            req.on('end', () => {
-               console.log(result);
+            let form  = new formidable.IncomingForm();
+
+            form.parse(req, (err, fields, files) => {
+                if(err){
+                    console.log(err);
+                    return;
+                }
+
+                console.log(fields);
+               let uploadFiles = files.upload;
+               fs.rename(uploadFiles.path, './'  + uploadFiles.name, (err) => {
+                   if(err){
+                       console.log(err);
+                       return;
+                   }
+
+                   console.log('Saved');
+
+                   res.write('Thank you :) ');
+                   res.end();
+               });
+
             });
 
-            res.write('Thank you :) ');
-            res.end();
         }
      })
      .listen(port);
