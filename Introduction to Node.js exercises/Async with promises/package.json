@@ -1,0 +1,17 @@
+{
+  "name": "storage",
+  "version": "0.0.1",
+  "description": "exercise from http and NodeJS lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "exercise",
+    "http",
+    "NodeJS",
+    "lesson"
+  ],
+  "author": "r3v3nan7",
+  "license": "MIT"
+}
