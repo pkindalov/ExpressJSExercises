@@ -2,7 +2,8 @@ const http = require('http');
 const query = require('querystring');
 const port = 1337;
 
-//How to return a regular html form with readable stream. NOTE: THIS NOT WORK WITH FORM WITH IMAGES
+//How to return a regular html form with readable stream. 
+
 
 http
      .createServer((req, res) => {
