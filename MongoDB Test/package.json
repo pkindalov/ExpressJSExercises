@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-live-demo-example",
+  "version": "0.0.1",
+  "description": "Example from live demo from lesson about MongoDB",
+  "main": "index.js",
+  "keywords": [
+    "mongodb",
+    "example",
+    "simple"
+  ],
+  "author": "r3v3nan7",
+  "license": "MIT"
+}
