@@ -13,5 +13,8 @@
     "livedemo"
   ],
   "author": "r3v3nan7",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "2.2.27"
+  }
 }
