@@ -1,5 +1,5 @@
 {
-  "name": "mongoose",
+  "name": "mongoose-test",
   "version": "0.0.1",
   "description": "Simple example and overview Mongoose from live demo",
   "main": "index.js",
@@ -15,6 +15,7 @@
   "author": "r3v3nan7",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "2.2.27"
+    "mongodb": "2.2.27",
+    "mongoose": "4.10.2"
   }
 }
