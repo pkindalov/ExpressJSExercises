@@ -1,0 +1,17 @@
+{
+  "name": "mongoose",
+  "version": "0.0.1",
+  "description": "Simple example and overview Mongoose from live demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "example",
+    "simple",
+    "livedemo"
+  ],
+  "author": "r3v3nan7",
+  "license": "MIT"
+}
